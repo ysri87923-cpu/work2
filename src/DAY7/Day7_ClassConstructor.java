@@ -1,8 +1,8 @@
-/*
- * Day7_ClassConstructor.java
+package DAY7;/*
+ * DAY7.Day7_ClassConstructor.java
  * Concept: Class, Constructor
  *
- * A simple ATM Account class showing how a class bundles data + behavior,
+ * A simple ATM DAY7.Account class showing how a class bundles data + behavior,
  * and how constructors initialize objects.
  */
 
@@ -16,7 +16,7 @@ class Account {
         this.accountNumber = accountNumber;
         this.holderName = holderName;
         this.balance = balance;
-        System.out.println("Account created for " + holderName);
+        System.out.println("DAY7.Account created for " + holderName);
     }
 
     public void deposit(double amount) {
